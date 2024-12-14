@@ -3,11 +3,11 @@ from telegram import Bot
 from telegram.ext import Application, CommandHandler
 
 # CoinMarketCap API anahtarınızı buraya ekleyin
-API_KEY = 'd6c50878-25a1-499e-86b5-eb728360ef6c'
+API_KEY = 'API KEY'
 CMC_URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/market-pair/v1'
 
 # Telegram Bot Token'ınızı buraya ekleyin
-TELEGRAM_TOKEN = '7282765207:AAH7tuiokSXtZ670S_lXLGeKpLgDYmvOc94'
+TELEGRAM_TOKEN = 'BOT TOKEN KEY'
 
 # CoinMarketCap'ten korku/açgözlülük endeksini almak için bir fonksiyon
 def get_fear_greed_index():
