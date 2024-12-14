@@ -1,3 +1,5 @@
+#Bu bot ile günün en çok yükselen 3 coinini tek mesajda görebileceksiniz.
+
 import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
